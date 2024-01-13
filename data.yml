@@ -1,0 +1,814 @@
+nlu:
+  affirmation:
+    examples: '# Formal Affirmation (ASR Style)
+
+      - Yes indeed I agree
+
+      - Certainly that''s correct
+
+      - Absolutely sure
+
+      - I concur with that
+
+      - That is correct I believe
+
+      - I agree with you
+
+      - Undoubtedly yes
+
+      - Precisely that''s right
+
+      - Affirmative I confirm
+
+      - Indeed that''s true
+
+      - Yeah sure
+
+      - Yup got it
+
+      - Sure thing
+
+      - Alright then
+
+      - Yep that''s right
+
+      - Okay sounds good
+
+      - Sounds good to me
+
+      - For sure no problem
+
+      - Totally agree
+
+      - Absolutely yes
+
+
+      # Formal Affirmation (ASR Style)
+
+      - Yes indeed I agree
+
+      - Certainly that''s correct
+
+      - Absolutely sure
+
+      - I concur with that
+
+      - That is correct I believe
+
+      - I agree with you
+
+      - Undoubtedly yes
+
+      - Precisely that''s right
+
+      - Affirmative I confirm
+
+      - Indeed that''s true
+
+
+      # Casual Affirmation (ASR Style)
+
+      - Yeah sure
+
+      - Yup got it
+
+      - Sure thing
+
+      - Alright then
+
+      - Yep that''s right
+
+      - Okay sounds good
+
+      - Sounds good to me
+
+      - For sure no problem
+
+      - Totally agree
+
+      - Absolutely yes
+
+
+      # Formal Affirmation
+
+      - Yes, indeed
+
+      - Certainly
+
+      - Absolutely
+
+      - I concur
+
+      - That is correct
+
+      - I agree
+
+      - Undoubtedly
+
+      - Precisely
+
+      - Affirmative
+
+      - Indeed
+
+
+      # Casual Affirmation
+
+      - Yeah
+
+      - Yup
+
+      - Sure
+
+      - Alright
+
+      - Yep
+
+      - Okay
+
+      - Sounds good
+
+      - For sure
+
+      - Totally
+
+      - Absolutely
+
+      '
+    intent: affirmation
+  decline:
+    examples: '# Formal Decline (ASR Style)
+
+      - No thank you I must decline
+
+      - I am afraid that''s not right
+
+      - Unfortunately no not this time
+
+      - I cannot agree with that
+
+      - That will not be possible for me
+
+      - I do not agree with that
+
+      - I must disagree with you
+
+      - That is incorrect I believe
+
+      - I am sorry but no
+
+      - Nah not really
+
+      - Nope don''t think so
+
+      - No way not happening
+
+      - Not really sure about that
+
+      - Don''t think so no
+
+      - Uh-uh not for me
+
+      - Nope sorry not now
+
+      - Not happening nope
+
+      - No thanks not now
+
+      - Not a chance no way
+
+
+      # Formal Decline (ASR Style)
+
+      - No thank you I must decline
+
+      - I am afraid that''s not right
+
+      - Unfortunately no not this time
+
+      - I cannot agree with that
+
+      - That will not be possible for me
+
+      - I do not agree with that
+
+      - I must disagree with you
+
+      - That is incorrect I believe
+
+      - I am sorry but no
+
+
+      # Casual Decline (ASR Style)
+
+      - Nah not really
+
+      - Nope don''t think so
+
+      - No way not happening
+
+      - Not really sure about that
+
+      - Don''t think so no
+
+      - Uh-uh not for me
+
+      - Nope sorry not now
+
+      - Not happening nope
+
+      - No thanks not now
+
+      - Not a chance no way
+
+
+      # Formal Decline
+
+      - No, thank you
+
+      - I must decline
+
+      - Regrettably, no
+
+      - I am afraid not
+
+      - Unfortunately, no
+
+      - I cannot
+
+      - That will not be possible
+
+      - I do not agree
+
+      - I must disagree
+
+      - That is incorrect
+
+
+      # Casual Decline
+
+      - Nah
+
+      - Nope
+
+      - No way
+
+      - Not really
+
+      - Don''t think so
+
+      - Uh-uh
+
+      - Nope, sorry
+
+      - Not happening
+
+      - No thanks
+
+      - Not a chance
+
+      '
+    intent: decline
+  greetings:
+    examples: '- Hello good morning
+
+      - Hello good afternoon
+
+      - Good evening to you
+
+      - Greetings everyone
+
+      - I am pleased to meet you all
+
+      - It is a pleasure meeting you
+
+      - How do you do
+
+      - I greet all of you
+
+      - Salutations to everyone
+
+      - Hi there
+
+      - Hey how''s it going
+
+      - What''s up everyone
+
+      - How''s it going for you
+
+      - Yo what''s happening
+
+      - Hey there folks
+
+      - Hiya all
+
+      - Howdy friends
+
+      - Sup you guys
+
+      - Heya everyone
+
+
+      # Formal Greetings (ASR Style)
+
+      - Hello good morning
+
+      - Hello good afternoon
+
+      - Good evening to you
+
+      - Greetings everyone
+
+      - I am pleased to meet you all
+
+      - It is a pleasure meeting you
+
+      - How do you do
+
+      - I greet all of you
+
+      - Salutations to everyone
+
+
+      # Casual Greetings (ASR Style)
+
+      - Hi there
+
+      - Hey how''s it going
+
+      - What''s up everyone
+
+      - How''s it going for you
+
+      - Yo what''s happening
+
+      - Hey there folks
+
+      - Hiya all
+
+      - Howdy friends
+
+      - Sup you guys
+
+      - Heya everyone
+
+
+      # Formal Greetings
+
+      - Good morning
+
+      - Good afternoon
+
+      - Good evening
+
+      - Hello
+
+      - Greetings
+
+      - I am pleased to meet you
+
+      - It is a pleasure to meet you
+
+      - How do you do?
+
+      - I greet you
+
+      - Salutations
+
+
+      # Casual Greetings
+
+      - Hi
+
+      - Hey
+
+      - What''s up?
+
+      - How''s it going?
+
+      - Yo
+
+      - Hey there
+
+      - Hiya
+
+      - Howdy
+
+      - Sup
+
+      - Heya
+
+      '
+    intent: greetings
+  provide_address:
+    examples: '# Formal Address Providing (ASR Style)
+
+      - My current residence is at [123 Park Avenue, Springfield](address)
+
+      - I reside at [456 Elm Street, Riverside](address)
+
+      - My home address is [789 Maple Lane, Oakwood](address)
+
+      - You may send it to [101 Pine Street, Hillcrest](address)
+
+      - Please forward it to [202 Birch Road, Greenfield](address)
+
+      - I live at [303 Cedar Avenue, Westwood](address)
+
+      - My domicile is [404 Oak Lane, Eastview](address)
+
+      - I inhabit [505 Cherry Drive, Northtown](address)
+
+      - My place of residence is [606 Walnut Circle, Southville](address)
+
+      - My abode is at [707 Aspen Court, Lakeview](address)
+
+      - I''m at [123 Park Ave, Springfield](address)
+
+      - My place is [456 Elm St, Riverside](address)
+
+      - Living at [789 Maple Ln, Oakwood](address)
+
+      - Send it to [101 Pine St, Hillcrest](address)
+
+      - You can find me at [202 Birch Rd, Greenfield](address)
+
+      - I stay at [303 Cedar Ave, Westwood](address)
+
+      - My spot is [404 Oak Ln, Eastview](address)
+
+      - I''m over at [505 Cherry Dr, Northtown](address)
+
+      - Home is [606 Walnut Cir, Southville](address)
+
+      - I''m living at [707 Aspen Ct, Lakeview](address)
+
+
+      # Formal Address Providing (ASR Style)
+
+      - My current residence is at [123 Park Avenue, Springfield](address)
+
+      - I reside at [456 Elm Street, Riverside](address)
+
+      - My home address is [789 Maple Lane, Oakwood](address)
+
+      - You may send it to [101 Pine Street, Hillcrest](address)
+
+      - Please forward it to [202 Birch Road, Greenfield](address)
+
+      - I live at [303 Cedar Avenue, Westwood](address)
+
+      - My domicile is [404 Oak Lane, Eastview](address)
+
+      - I inhabit [505 Cherry Drive, Northtown](address)
+
+      - My place of residence is [606 Walnut Circle, Southville](address)
+
+      - My abode is at [707 Aspen Court, Lakeview](address)
+
+
+      # Casual Address Providing (ASR Style)
+
+      - I''m at [123 Park Ave, Springfield](address)
+
+      - My place is [456 Elm St, Riverside](address)
+
+      - Living at [789 Maple Ln, Oakwood](address)
+
+      - Send it to [101 Pine St, Hillcrest](address)
+
+      - You can find me at [202 Birch Rd, Greenfield](address)
+
+      - I stay at [303 Cedar Ave, Westwood](address)
+
+      - My spot is [404 Oak Ln, Eastview](address)
+
+      - I''m over at [505 Cherry Dr, Northtown](address)
+
+      - Home is [606 Walnut Cir, Southville](address)
+
+      - I''m living at [707 Aspen Ct, Lakeview](address)
+
+
+      # Formal Address Providing
+
+      - My current residence is at [123 Park Avenue, Springfield](address)
+
+      - I reside at [456 Elm Street, Riverside](address)
+
+      - My home address is [789 Maple Lane, Oakwood](address)
+
+      - You may send it to [101 Pine Street, Hillcrest](address)
+
+      - Please forward it to [202 Birch Road, Greenfield](address)
+
+      - I live at [303 Cedar Avenue, Westwood](address)
+
+      - My domicile is [404 Oak Lane, Eastview](address)
+
+      - I inhabit [505 Cherry Drive, Northtown](address)
+
+      - My place of residence is [606 Walnut Circle, Southville](address)
+
+      - My abode is at [707 Aspen Court, Lakeview](address)
+
+
+      # Casual Address Providing
+
+      - I''m at [123 Park Ave, Springfield](address)
+
+      - My place is [456 Elm St, Riverside](address)
+
+      - Living at [789 Maple Ln, Oakwood](address)
+
+      - Send it to [101 Pine St, Hillcrest](address)
+
+      - You can find me at [202 Birch Rd, Greenfield](address)
+
+      - I stay at [303 Cedar Ave, Westwood](address)
+
+      - My spot is [404 Oak Ln, Eastview](address)
+
+      - I''m over at [505 Cherry Dr, Northtown](address)
+
+      - Home is [606 Walnut Cir, Southville](address)
+
+      - I''m living at [707 Aspen Ct, Lakeview](address)
+
+      '
+    intent: provide_address
+  provide_name:
+    examples: '# Formal Name Providing (ASR Style)
+
+      - My name is [John Doe](name)
+
+      - I am [Elizabeth Smith](name)
+
+      - You may call me [Mr. James Brown](name)
+
+      - I am [Dr. Sarah Johnson](name)
+
+      - Please address me as [Professor Emma Wilson](name)
+
+      - I am known as [Mrs. Olivia Martin](name)
+
+      - My full name is [Christopher Davis](name)
+
+      - I am [Sophia Garcia](name)
+
+      - Call me [Michael Miller](name)
+
+      - I go by the name of [Grace Rodriguez](name)
+
+      - I''m [Mike](name)
+
+      - Call me [Liz](name)
+
+      - This is [Jim](name)
+
+      - It''s [Sarah](name)
+
+      - Just [Emma](name) here
+
+      - I go by [Liv](name)
+
+      - People know me as [Chris](name)
+
+      - I''m [Soph](name)
+
+      - You can call me [Mike](name)
+
+      - My friends call me [Gracie](name)
+
+
+      # Formal Name Providing (ASR Style)
+
+      - My name is [John Doe](name)
+
+      - I am [Elizabeth Smith](name)
+
+      - You may call me [Mr. James Brown](name)
+
+      - I am [Dr. Sarah Johnson](name)
+
+      - Please address me as [Professor Emma Wilson](name)
+
+      - I am known as [Mrs. Olivia Martin](name)
+
+      - My full name is [Christopher Davis](name)
+
+      - I am [Sophia Garcia](name)
+
+      - Call me [Michael Miller](name)
+
+      - I go by the name of [Grace Rodriguez](name)
+
+
+      # Casual Name Providing (ASR Style)
+
+      - I''m [Mike](name)
+
+      - Call me [Liz](name)
+
+      - This is [Jim](name)
+
+      - It''s [Sarah](name)
+
+      - Just [Emma](name) here
+
+      - I go by [Liv](name)
+
+      - People know me as [Chris](name)
+
+      - I''m [Soph](name)
+
+      - You can call me [Mike](name)
+
+      - My friends call me [Gracie](name)
+
+
+      # Formal Name Providing
+
+      - My name is [John Doe](name)
+
+      - I am [Elizabeth Smith](name)
+
+      - You may call me [Mr. James Brown](name)
+
+      - I am [Dr. Sarah Johnson](name)
+
+      - Please address me as [Professor Emma Wilson](name)
+
+      - I am known as [Mrs. Olivia Martin](name)
+
+      - My full name is [Christopher Davis](name)
+
+      - I am [Sophia Garcia](name)
+
+      - Call me [Michael Miller](name)
+
+      - I go by the name of [Grace Rodriguez](name)
+
+
+      # Casual Name Providing
+
+      - I''m [Mike](name)
+
+      - Call me [Liz](name)
+
+      - This is [Jim](name)
+
+      - It''s [Sarah](name)
+
+      - Just [Emma](name) here
+
+      - I go by [Liv](name)
+
+      - People know me as [Chris](name)
+
+      - I''m [Soph](name)
+
+      - You can call me [Mike](name)
+
+      - My friends call me [Gracie](name)
+
+      '
+    intent: provide_name
+  provide_phone:
+    examples: '# Formal Phone Providing (ASR Style)
+
+      - My contact number is [123-456-7890](phone)
+
+      - You may reach me at [987-654-3210](phone)
+
+      - My telephone number is [555-123-4567](phone)
+
+      - Please call me on [456-789-0123](phone)
+
+      - I can be contacted at [321-654-9870](phone)
+
+      - My direct line is [654-321-0987](phone)
+
+      - You may dial [789-012-3456](phone) for me
+
+      - My office number is [234-567-8901](phone)
+
+      - Please contact me via [567-890-1234](phone)
+
+      - My cellular number is [890-123-4567](phone)
+
+      - Call me at [123-456-7890](phone)
+
+      - Ring me on [987-654-3210](phone)
+
+      - My number''s [555-123-4567](phone)
+
+      - Hit me up at [456-789-0123](phone)
+
+      - You can text me at [321-654-9870](phone)
+
+      - My cell is [654-321-0987](phone)
+
+      - Buzz me on [789-012-3456](phone)
+
+      - My work number is [234-567-8901](phone)
+
+      - Drop me a call at [567-890-1234](phone)
+
+      - Text my phone [890-123-4567](phone)
+
+
+      # Formal Phone Providing (ASR Style)
+
+      - My contact number is [123-456-7890](phone)
+
+      - You may reach me at [987-654-3210](phone)
+
+      - My telephone number is [555-123-4567](phone)
+
+      - Please call me on [456-789-0123](phone)
+
+      - I can be contacted at [321-654-9870](phone)
+
+      - My direct line is [654-321-0987](phone)
+
+      - You may dial [789-012-3456](phone) for me
+
+      - My office number is [234-567-8901](phone)
+
+      - Please contact me via [567-890-1234](phone)
+
+      - My cellular number is [890-123-4567](phone)
+
+
+      # Casual Phone Providing (ASR Style)
+
+      - Call me at [123-456-7890](phone)
+
+      - Ring me on [987-654-3210](phone)
+
+      - My number''s [555-123-4567](phone)
+
+      - Hit me up at [456-789-0123](phone)
+
+      - You can text me at [321-654-9870](phone)
+
+      - My cell is [654-321-0987](phone)
+
+      - Buzz me on [789-012-3456](phone)
+
+      - My work number is [234-567-8901](phone)
+
+      - Drop me a call at [567-890-1234](phone)
+
+      - Text my phone [890-123-4567](phone)
+
+
+      # Formal Phone Providing
+
+      - My contact number is [123-456-7890](phone)
+
+      - You may reach me at [987-654-3210](phone)
+
+      - My telephone number is [555-123-4567](phone)
+
+      - Please call me on [456-789-0123](phone)
+
+      - I can be contacted at [321-654-9870](phone)
+
+      - My direct line is [654-321-0987](phone)
+
+      - You may dial [789-012-3456](phone) for me
+
+      - My office number is [234-567-8901](phone)
+
+      - Please contact me via [567-890-1234](phone)
+
+      - My cellular number is [890-123-4567](phone)
+
+
+      # Casual Phone Providing
+
+      - Call me at [123-456-7890](phone)
+
+      - Ring me on [987-654-3210](phone)
+
+      - My number''s [555-123-4567](phone)
+
+      - Hit me up at [456-789-0123](phone)
+
+      - You can text me at [321-654-9870](phone)
+
+      - My cell is [654-321-0987](phone)
+
+      - Buzz me on [789-012-3456](phone)
+
+      - My work number is [234-567-8901](phone)
+
+      - Drop me a call at [567-890-1234](phone)
+
+      - Text my phone [890-123-4567](phone)
+
+      '
+    intent: provide_phone
+version: '3.1'
