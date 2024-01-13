@@ -60,10 +60,295 @@ nlu:
     - Howdy friends
     - Sup you guys
     - Heya everyone
-
+    - Good morning
+    - Good afternoon
+    - Good evening
+    - Hello
+    - Greetings
+    - I am pleased to meet you
+    - It is a pleasure to meet you
+    - How do you do?
+    - I greet you
+    - Salutations
+    - Hi
+    - Hey
+    - What's up?
+    - How's it going?
+    - Yo
+    - Hey there
+    - Hiya
+    - Howdy
+    - Sup
+    - Heya
 - intent: affirmation
   examples: |
     # Formal Affirmation (ASR Style)
+    - yes
+    - yeah
+    - yup
+    - Okay, dude.
+    - Yes, that is correct.
+    - Absolutely, I agree.
+    - Indeed, that's right.
+    - Certainly, I concur.
+    - Affirmative, I agree. 
+    - Precisely, that's true.
+    - Without a doubt, I concur.
+    - Yes, that's accurate.
+    - That's right, I agree.
+    - Yes, I'm in agreement.
+    - Yup, that's right.
+    - Totally, I'm on board.
+    - Yep, I agree.
+    - For sure, that's correct.
+    - Sure thing, I'm with you.
+    - Absolutely, you got it.
+    - Yeah, that's accurate.
+    - You bet, I'm in agreement.
+    - Exactly, I'm on the same page.
+    - Yes!
+    - Totally!
+    - Yeah!
+    - Sure!
+    - Absolutely!
+    - Of course!
+    - Yep!
+    - You got it!
+    - Exactly!
+    - Affirmative!
+    - Right on!
+    - You bet!
+    - Absolutely, yes!
+    - Indeed!
+    - That's right!
+    - Most definitely!
+    - For sure!
+    - No question!
+    - Without a doubt!
+    - Definitely!
+    - Without question!
+    - That's correct!
+    - I agree!
+    - Certainly!
+    - That's accurate!
+    - Totally agree!
+    - I'm with you!
+    - Absolutely right!
+    - True that!
+    - It's true!
+    - That's spot on!
+    - You're right!
+    - That's a yes!
+    - Totally true!
+    - That's for sure!
+    - Exactly right!
+    - Totally, yes!
+    - Affirmative, indeed!
+    - Yes, I am here.
+    - Yes, you are right.
+    - Just aim here.
+    - Yeah, I might think.
+    - Yes, I am already thinking about this.
+    - Just...
+    - Okay
+    - Yes I am here.
+    - Yes, I would think about that.
+    - I am happy.
+    - Yeah, I might think about it. Go
+    - I know.
+    - Yes, I am here.
+    - Okay, great.
+    - No Problem
+    - I am ok 
+    - its ok
+    - its fine
+    - its awesome 
+    - sure
+    - sure go ahead
+    - i am up
+    - i'm up
+    - Thanks
+    - thank you 
+    - no problem. we can continue
+    - we can continue 
+    - please go ahead
+    - if there's no problem, we can continue
+    - Yes, I'd like to continue with your assistance.
+    - Absolutely, that makes sense.
+    - Count me in!
+    - Definitely, that's what I was thinking.
+    - Fair point, I concur.
+    - No doubt about it!
+    - Right there with you.
+    - I see your point, and I agree.
+    - You've hit the nail on the head!
+    - That resonates with me.
+    - Couldn't agree more!
+    - That's the truth!
+    - You've got it spot on.
+    - Bingo!
+    - That's exactly my thinking.
+    - That's how I see it too.
+    - No arguments here.
+    - I was just going to say that.
+    - Perfect, I was thinking the same.
+    - Sounds good to me.
+    - Yes, that's a fair point.
+    - I had the same thought.
+    - I see where you're coming from.
+    - You took the words right out of my mouth.
+    - That's a given!
+    - Couldn't have said it better myself.
+    - Yes, without hesitation.
+    - That sounds about right.
+    - You're spot on.
+    - Yes, I'm all for it.
+    - No objections here.
+    - I can't argue with that.
+    - I was just about to say that.
+    - I'd say the same.
+    - I'm with you 100%.
+    - I couldn't agree more.
+    - You're on the money.
+    - That's a resounding yes from me.
+    - Spot on, that's correct.
+    - Yes, you've got the gist of it.
+    - Undoubtedly, that's the case.
+    - I was thinking along the same lines.
+    - That's a definite yes.
+    - I wholeheartedly agree.
+    - You've captured it perfectly.
+    - I see no fault in that.
+    - I'm on the same wavelength.
+    - No second thoughts about it.
+    - True, that's a valid point.
+    - Unquestionably, I'm with you.
+    - Couldn't have put it better myself.
+    - That aligns with my thoughts.
+    - Yes, that's unmistakably correct.
+    - Clearly, you're right.
+    - I'm in sync with that.
+    - Without reservations, I agree.
+    - You've echoed my sentiments.
+    - Yes, that's a certainty.
+    - I'd back that statement.
+    - It's clear as day to me.
+    - I'm in full agreement.
+    - That's the consensus, for sure.
+    - Yes, without any qualms.
+    - I'm sold on that idea.
+    - You've articulated it perfectly.
+    - Unambiguously, that's correct.
+    - Yes, you're echoing my thoughts.
+    - I stand by that statement.
+    - That's the perspective I hold too.
+    - I'm singing the same tune.
+    - That's indisputably true.
+    - You've hit it right.
+    - Yes, it's irrefutable.
+    - I'm on board with that.
+    - That's inarguably correct.
+    - go ahead
+    - do it
+    - i am fine
+    - sure
+    - affirmative
+    - I am ok
+    - ok with this
+    - yeah sure
+    - lets try that
+    - i can try
+    - lets do it
+    - just do it
+    - on it
+    - yep
+    - yeah
+    - go on
+    - Let's continue
+    - absolutely
+    - by all means
+    - certainly
+    - definitely
+    - of course
+    - that sounds good
+    - sounds great to me
+    - indeed
+    - right on
+    - without a doubt
+    - count me in
+    - sure thing
+    - I'm in agreement
+    - I concur
+    - nodding
+    - that's a yes from me
+    - you bet
+    - I'm all for it
+    - agreed
+    - roger that
+    - I see no issues
+    - that works for me
+    - I'm on board
+    - totally
+    - no problems there
+    - sounds perfect
+    - alrighty
+    - for sure
+    - thumbs up
+    - keep going
+    - give it a shot
+    - let's roll with it
+    - sounds feasible
+    - please proceed
+    - I'm with you
+    - I follow
+    - I'm in sync
+    - gotcha
+    - I understand and agree
+    - sounds good to me
+    - I'm down with that
+    - let's make it happen
+    - Yes, I'll continue with the AI for now
+    - Yes, I'm eager to continue with your support
+    - I'm all ears, please go ahead with your assistance.
+    - Yes, I'm eager to continue with your support.
+    - Yes, I'm on board with your assistance
+    - Absolutely, I'm here for your help.
+    - Yes, please proceed, I'm ready to continue.
+    - please proceed, I'm ready to continue
+    - I'm ready to continue
+    - Yes, I'm open to your guidance, please continue.
+    - I'm ready, so please carry on with your assistance.
+    - ready
+    - I'm ready
+    - carry on
+    - Certainly, I would appreciate your continued help
+    - I would appreciate your continued help
+    - I'm interested in proceeding with your support, please.
+    - interested
+    - I'm inclined to carry on with your guidance.
+    - your guidance please
+    - Yes, I wish to persist with your aid
+    - I wish to persist with your aid
+    - you please help
+    - Indeed, I'm keen on continuing with your assistance.
+    - Wonderful, we can proceed with your assistance.
+    - we'll carry on with your support
+    - we can move forward with your assistance
+    - Certainly, I would rather proceed with the AI
+    - proceed with the AI
+    - please proceed 
+    - lets proceed
+    - I favor continuing with the AI assistant
+    - I am in favor of continuing
+    - Yes, I'd choose to keep using the AI assistant.
+    - Absolutely, I'd opt to continue with the AI assistant.
+    - Of course, I'd select to persist with the AI assistant.
+    - go ahead with your assistance, please
+    - I encourage your ongoing support.
+    - please proceed with your assistance
+    -  I'm fine with continuing with the AI-assistant.
+    - i am ready for your assistance
+    - ofcourse
     - Yes indeed I agree
     - Certainly that's correct
     - Absolutely sure
@@ -124,6 +409,7 @@ nlu:
     - For sure
     - Totally
     - Absolutely
+    - Yes 
 
 - intent: decline
   examples: |
@@ -186,6 +472,134 @@ nlu:
     - Not happening
     - No thanks
     - Not a chance
+    - no
+    - never
+    - no i do not want to continue
+    - don't continue
+    - no continue
+    - no thanks
+    - not now
+    - maybe later
+    - I'd rather not
+    - no way
+    - I don't think so
+    - not a chance
+    - sorry, can't
+    - that won't work for me
+    - I'm not interested
+    - not this time
+    - not right now
+    - I'm going to pass
+    - I'll skip
+    - nope
+    - nah
+    - not feeling it
+    - not today
+    - I'd prefer not to
+    - I don't agree
+    - doesn't sound good
+    - I can't commit to that
+    - decline
+    - I refuse
+    - not my thing
+    - I'm not up for it
+    - I'd rather pass
+    - not in the mood
+    - let's not
+    - I'll think about it
+    - not sure about that
+    - I'm hesitant
+    - not convinced
+    - it's a no from me
+    - don't count on it
+    - No.
+    - No, thanks.
+    - Nope.
+    - I can't.
+    - Sorry, no.
+    - I won't.
+    - Not today.
+    - No way.
+    - I'll pass.
+    - Not for me.
+    - I'll decline.
+    - Can't make it.
+    - I'm sorry, but I can't agree with that.
+    - Unfortunately, I must decline.
+    - Regrettably, I cannot accept.
+    - I'm afraid I have to decline.
+    - I appreciate the offer, but I must decline.
+    - I'm unable to comply, I decline.
+    - I'm not able to agree, I must decline.
+    - I'm sorry, but that's not possible for me.
+    - I have to decline your proposal.
+    - I regret to inform you that I cannot proceed.
+    - I'm unable to participate, I decline.
+    - I'm sorry, but I'm unable to agree with that.
+    - I must respectfully decline your request.
+    - I'm afraid I have to say no.
+    - I can't accept, I decline.
+    - I'm sorry, but I can't proceed in that direction.
+    - I appreciate the offer, but I cannot agree.
+    - I'm unable to comply, I must decline.
+    - I'm not able to accept, I must decline.
+    - I must decline due to prior commitments.
+    - Sorry, I can't go along with that.
+    - Nah, I'll have to pass on that.
+    - Unfortunately, I'm gonna have to say no.
+    - Nope, I can't do that.
+    - Sorry, but I'm not up for it.
+    - Not gonna happen, I'm afraid.
+    - I can't agree with that, sorry.
+    - I'm not really up for that, sorry.
+    - Nah, I can't join in on that.
+    - I'll have to decline, sorry.
+    - Nah, that's not gonna work for me.
+    - I can't go for that, sorry.
+    - I'm not on board with that idea, sorry.
+    - Unfortunately, I'm gonna have to pass.
+    - Sorry, but I can't commit to that.
+    - Nah, I can't be a part of that.
+    - I'm not feeling that, sorry.
+    - Unfortunately, I'm gonna have to decline.
+    - Sorry, that's a no-go for me.
+    - I can't get behind that, sorry.
+    - Sorry, can't.
+    - Nope, not happening.
+    - Afraid not.
+    - Can't do it.
+    - Not up for it.
+    - Gotta decline.
+    - Not gonna happen.
+    - That's a no.
+    - I'll pass.
+    - Can't commit.
+    - No go.
+    - No way.
+    - Sorry, no.
+    - Nah, not for me.
+    - I'm out.
+    - Thanks, but no.
+    - I'll pass, thanks.
+    - I can't, sorry.
+    - Not my thing.
+    - I'm gonna have to decline.
+    - I appreciate it, but no.
+    - I'll have to say no.
+    - Can't do that.
+    - I'm not up for that.
+    - Nope, not joining.
+    - Not happening.
+    - I'll pass on that.
+    - That's not my style.
+    - No, thank you.
+    - Sorry, not today.
+    - Unfortunately, no.
+    - I can't make it.
+    - I have to decline, sorry.
+    - Not this time.
+    - I don't think so.
+    - I don't want anything you go you
 
 - intent: provide_name
   examples: |
@@ -225,6 +639,8 @@ nlu:
     - This is [Jim](name)
     - It's [Sarah](name)
     - Just [Emma](name) here
+    - [Alex](name) here
+    - I am [Alex Liz](name)
     - I go by [Liv](name)
     - People know me as [Chris](name)
     - I'm [Soph](name)
@@ -250,7 +666,283 @@ nlu:
     - I'm [Soph](name)
     - You can call me [Mike](name)
     - My friends call me [Gracie](name)
-
+    - Oh, I'm just [John](name).
+    - I'm [Alice](name).
+    - Call me [Michael](name) if you want.
+    - No biggie, you can address me as [Sarah](name).
+    - Just so you know, [David](name) is the name.
+    - They call me [Emily](name), but you can too.
+    - No need for formality, go with [Robert](name).
+    - [Jessica](name) here, what's up?
+    - just [Daniel](name) is fine.
+    - Oh, you can call me [Jennifer](name) casually.
+    - the name's [William](name), nice to meet ya!
+    - I'm [Olivia](name), nice to e-meet you.
+    - [James](name) at your service.
+    - Just a heads up, I'm [Sophia](name).
+    - You can just call me [Matthew](name).
+    - No need to be formal, I'm [Emma](name).
+    - [Benjamin](name) is my name, no big deal.
+    - I'm known as [Ava](name), casual and easy.
+    - I go by [Liam](name), nice to meet you!
+    - Just call me [Ella](name).
+    - You can call me [William](name) if you'd like.
+    - My name's [Mia](name), what about yours?
+    - [Noah](name), that's the name I use.
+    - Oh, it's [Avery](name) by the way.
+    - Call me [Charlotte](name) if you want to.
+    - [Liam](name) is the name, what's yours?
+    - [Abigail](name) here, how can I assist you?
+    - I'm [Ethan](name), pleasure to meet you!
+    - [Isabella](name) is my name, what's yours?
+    - Just so you know, it's [Liam](name).
+    - They call me [Olivia](name), but you can too.
+    - No need for formality, go with [Henry](name).
+    - [Sofia](name) here, what can I do for you?
+    - Just [Jackson](name) is fine, thanks!
+    - Oh, you can call me [Amelia](name) casually.
+    - the name's [Samuel](name), nice to meet ya!
+    - I'm [Ava](name), nice to e-meet you.
+    - [Ethan](name) at your service.
+    - [Sophia](name) is the name you're looking for.
+    - It's [Liam](name), how can I assist you?
+    - You can address me as [Olivia](name).
+    - Just call me [Noah](name), no need to be formal.
+    - [Emma](name) here, how can I help you today?
+    - I'm [Liam](name), nice to meet you.
+    - The name's [Ava](name), what's your inquiry?
+    - [William](name) is my name, what's yours?
+    - Oh, it's [Isabella](name) by the way.
+    - Call me [James](name) if you need assistance.
+    - [Sophia](name) at your service.
+    - You can just call me [Jackson](name).
+    - I'm known as [Mia](name), casual and easy.
+    - [Henry](name) here, what can I do for you?
+    - Just [Avery](name) is fine, thanks!
+    - [Oliver](name) is the name, how can I help you?
+    - [Ava](name) is the name, what's your question?
+    - It's [Ethan](name), how may I assist you today?
+    - You can address me as [Charlotte](name).
+    - [Liam](name) here, what brings you here?
+    - The name's [Amelia](name), nice to meet you!
+    - [Isabella](name) is my name, how can I help?
+    - Oh, it's [Oliver](name) by the way.
+    - Call me [Mia](name) if you have any questions.
+    - [Elijah](name) at your service.
+    - You can just call me [Liam](name).
+    - I'm known as [Charlotte](name), casual and easy.
+    - [Emma](name) here, what can I do for you?
+    - Just [Noah](name) is fine, thanks!
+    - [Avery](name) is the nam
+    - [William](name) is my name
+    - It's [Sophia](name)
+    - You can address me as [Henry](name).
+    - [Ava](name) here
+    - The name's [Liam](name)
+    - [Oliver](name) is the name
+    - [Ethan](name) is my name, how can I help?
+    - Call me [James](name)
+    - Oh, it's [Amelia](name) by the way.
+    - [Isabella](name) at your service.
+    - You can just call me [Mia](name).
+    - I'm known as [Elijah](name), casual and easy.
+    - [Liam](name) here
+    - Just [Charlotte](name) is fine, thanks!
+    - [Noah](name) is the name
+    - [Emma](name) is my name
+    - It's [Sophia](name)
+    - I usually respond to [Joseph](name).
+    - [Charlotte](name) works for me, how about you?
+    - you can call me [Henry](name) casually.
+    - No worries, it's [Liam](name).
+    - Just me, [Mia](name), nice and casual.
+    - No need to be fancy, I'm [Elijah](name).
+    - [Harper](name) is the name, keep it casual.
+    - You can just call me [Samuel](name).
+    - [Evelyn](name) is what they call me, but you can too.
+    - Don't sweat it, I'm [Alexander](name).
+    - Oh, I'm [Ella](name), no need to be formal.
+    - Keep it chill, it's [Jackson](name).
+    - Pleased to introduce myself, I am [John](name).
+    - my name is [Alice](name).
+    - You may refer to me as [Michael](name).
+    - Please address me as [Sarah](name).
+    - Allow me to introduce myself, [David](name) is my name.
+    - They call me [Emily](name), formally speaking.
+    - You can address me formally as [Robert](name).
+    - I am [Jessica](name), nice to make your acquaintance.
+    - Allow me to state my name, I am [Daniel](name).
+    - You may formally call me [Jennifer](name).
+    - I go by the name of [William](name).
+    - I am [Olivia](name).
+    - [James](name) is my formal designation.
+    - It's my pleasure to inform you that I am [Sophia](name).
+    - My formal identity is [Matthew](name).
+    - I am known as [Emma](name) in formal settings.
+    - You may refer to me formally as [Benjamin](name).
+    - I respond to [Ava](name) in formal contexts.
+    - You may formally address me as [Joseph](name).
+    - In formal interactions, I am [Charlotte](name).
+    - I am [Henry](name), formally speaking.
+    - I wish to formally introduce myself as [Liam](name).
+    - In formal situations, I am [Mia](name).
+    - Allow me to formally state that I am [Elijah](name).
+    - I prefer to be addressed formally as [Harper](name).
+    - You may formally call me [Samuel](name).
+    - In formal correspondence, I am [Evelyn](name).
+    - You may address me formally as [Alexander](name).
+    - Please note, I am [Ella](name) in formal contexts.
+    - In formal communication, I am [Jackson](name).
+    - I am [Lily](name), formally speaking.
+    - Please address me formally as [Liam](name).
+    - I formally introduce myself as [Avery](name).
+    - In formal interactions, I am [Sofia](name).
+    - I prefer to be addressed formally as [Noah](name).
+    - My formal name is [Grace](name).
+    - Please note, in formal settings, I am [James](name).
+    - You may formally call me [Chloe](name).
+    - In formal communication, I am [Lucas](name).
+    - My name is [John](name).
+    - You can call me [Emily](name).
+    - I go by [Michael](name).
+    - People call me [Sarah](name).
+    - [Daniel](name), that's my name.
+    - It's [Jessica](name), by the way.
+    - Call me [David](name).
+    - My name's [Jennifer](name).
+    - [Matthew](name) is my name.
+    - You can call me [Elizabeth](name).
+    - I'm [William](name).
+    - [Olivia](name) is who I am.
+    - My name's [Christopher](name).
+    - It's [Sophia](name).
+    - [James](name) is what they call me.
+    - Call me [Emma](name).
+    - I go by [Liam](name).
+    - I'm [Ava](name).
+    - They call me [Benjamin](name).
+    - My name is [Mia](name).
+    - [Ethan](name) is who I am.
+    - People call me [Isabella](name).
+    - [Alexander](name) is my name.
+    - It's [Amelia](name), by the way.
+    - My name's [Henry](name).
+    - Call me [Charlotte](name).
+    - [Michael](name) is what they call me.
+    - I go by [Sophia](name).
+    - I'm [William](name).
+    - [Olivia](name) is my name.
+    - My name's [Liam](name).
+    - It's [Emma](name).
+    - Call me [Noah](name).
+    - I go by [Ava](name).
+    - [James](name) is who I am.
+    - People call me [Olivia](name).
+    - My name is [Lucas](name).
+    - [Sophia](name) is my name.
+    - [William](name) is what they call me.
+    - It's [Isabella](name), by the way.
+    - Call me [Elijah](name).
+    - I'm [Charlotte](name).
+    - [Michael](name) is my name.
+    - My name's [Harper](name).
+    - It's [Liam](name).
+    - [Emma](name) is what they call me.
+    - I go by [Ethan](name).
+    - People call me [Amelia](name).
+    - My name is [Abigail](name).
+    - You can call me [Henry](name).
+    - [Sophia](name) is who I am.
+    - It's [Mia](name), by the way.
+    - Call me [Jackson](name).
+    - My name's [Liam](name).
+    - [Noah](name) is my name.
+    - I'm [Olivia](name).
+    - [Emma](name) is what they call me.
+    - People call me [William](name).
+    - [Sophia](name) is my name.
+    - It's [Evelyn](name).
+    - My name's [Henry](name).
+    - Call me [Emily](name).
+    - [Michael](name) is what they call me.
+    - I go by [Ava](name).
+    - [Alexander](name) is my name.
+    - It's [Charlotte](name), by the way.
+    - My name is [Liam](name).
+    - You can call me [Isabella](name).
+    - I'm [William](name).
+    - [Olivia](name) is who I am.
+    - [Ethan](name) is my name.
+    - People call me [Sophia](name).
+    - [James](name) is what they call me.
+    - My name's [Ava](name).
+    - It's [Mia](name).
+    - Call me [Benjamin](name).
+    - [Lucas](name) is my name.
+    - I go by [Sophia](name).
+    - [Olivia](name) is my name.
+    - It's [William](name), by the way.
+    - My name's [Ella](name).
+    - Call me [Liam](name).
+    - [Michael](name) is what they call me.
+    - I'm [Charlotte](name).
+    - [Henry](name) is my name.
+    - [Emma](name) is what they call me.
+    - People call me [Mia](name).
+    - My name is [Oliver](name).
+    - It's [Amelia](name).
+    - Call me [Sophia](name).
+    - [William](name) is who I am.
+    - My name's [James](name).
+    - [Evelyn](name) is my name.
+    - [Liam](name) is what they call me.
+    - It's [Emily](name), by the way.
+    - Call me [Alexander](name).
+    - My name's [Charlotte](name).
+    - [Michael](name) is my name.
+    - I go by [Liam](name).
+    - [Sophia](name) is who I am.
+    - It's [Mia](name).
+    - [William](name) is what they call me.
+    - My name is [Ella](name).
+    - You can call me [Lucas](name).
+    - I'm [Olivia](name).
+    - [Ethan](name) is my name.
+    - People call me [Sophia](name).
+    - [James](name) is what they call me.
+    - My name's [Ava](name).
+    - It's [Mia](name).
+    - Call me [Benjamin](name).
+    - I'm [John](name).
+    - [Emily](name), that's me.
+    - Just call me [Michael](name).
+    - I'm [Sarah](name), nice to meet you.
+    - [Daniel](name) here.
+    - The name's [Jessica](name).
+    - I'm [David](name), no need for formalities.
+    - Hey, I'm [Jennifer](name).
+    - [Matthew](name), that's the name.
+    - [Elizabeth](name) works for me.
+    - My name is [John](name).
+    - You can call me [Emily](name).
+    - I go by [Michael](name).
+    - People call me [Sarah](name).
+    - [Daniel](name), that's my name.
+    - It's [Jessica](name), by the way.
+    - Call me [David](name).
+    - My name's [Jennifer](name).
+    - [Matthew](name) is my name.
+    - You can call me [Elizabeth](name).
+    - [John](name).
+    - [Emily](name).
+    - [Michael](name).
+    - [Sarah](name).
+    - [Daniel](name).
+    - [Jessica](name).
+    - [David](name).
+    - [Jennifer](name).
+    - [Matthew](name).
+    - [Elizabeth](name).
 
 - intent: provide_address
   examples: |
@@ -365,4 +1057,102 @@ nlu:
     - My work number is [234-567-8901](phone)
     - Drop me a call at [567-890-1234](phone)
     - Text my phone [890-123-4567](phone)
+
+- intent: say_again
+  examples: |
+    - Repeat that.
+    - Say it again, please.
+    - Can you repeat that?
+    - What did you say?
+    - I didn't catch that, say it again.
+    - Say that one more time.
+    - Please repeat.
+    - Once more, please.
+    - Say it one more time.
+    - Sorry, I missed that. Say it again.
+    - Could you please repeat that?
+    - I didn't catch your last statement; could you say it again?
+    - Sorry, I missed what you said. Can you please repeat it?
+    - I didn't quite hear you. Can you repeat your previous message?
+    - My apologies, I didn't understand. Can you say it again?
+    - I'm having trouble understanding. Could you repeat that?
+    - I didn't get that. Can you please repeat it?
+    - Can you kindly rephrase that for me?
+    - I didn't quite grasp your message. Say it again, please.
+    - I didn't hear you clearly. Could you repeat it?
+    - Pardon me, I need you to repeat your last statement.
+    - I didn't catch that. Please repeat your message.
+    - I'm not sure I understood. Can you say it again?
+    - Can you repeat your previous message, please?
+    - I didn't hear that clearly. Can you please repeat it?
+    - Sorry, I missed what you said. Please repeat.
+    - I'm having difficulty understanding. Could you repeat that?
+    - I didn't quite catch your previous message. Can you repeat it?
+    - I didn't understand your last statement. Can you repeat it?
+    - Can you please say that again?
+    - I didn't hear you properly. Say it again, please.
+    - My apologies, I missed that. Could you please repeat?
+    - I didn't get that. Can you repeat your previous message?
+    - I didn't quite hear what you said. Could you repeat it?
+    - I didn't catch your message. Say it again, please.
+    - I'm having trouble hearing you. Can you please repeat?
+    - Sorry, I missed your previous message. Can you repeat it?
+    - I didn't understand your last statement. Please repeat.
+    - Can you kindly repeat that for me?
+    - I didn't quite catch your last message. Say it again.
+    - I didn't hear that clearly. Could you please repeat?
+    - My apologies, but I missed that. Say it again, please.
+    - Can you please repeat that?
+    - I'm sorry, but I didn't catch that. Can you say it again?
+    - Please say that again.
+    - Could you repeat what you just said?
+    - I couldn't hear you clearly. Can you repeat?
+    - Say that one more time.
+    - I missed what you said. Can you please repeat?
+    - What was that? Can you say it again?
+    - I didn't quite get that. Repeat, please.
+    - Sorry, I didn't understand. Could you repeat?
+    - I didn't hear you properly. Can you repeat, please?
+    - My reception is not great. Can you repeat?
+    - Say it again, please. I didn't hear you well.
+    - One more time, please.
+    - I need you to repeat what you just said.
+    - Can you clarify that by repeating it?
+    - I'm having trouble hearing you. Say it again.
+    - Please repeat for clarity.
+    - Sorry, I missed that. Repeat it, please.
+    - Say that once more, please.
+    - I missed the last part. Can you repeat it?
+    - I didn't catch your previous statement. Repeat it.
+    - What did you say? Please repeat.
+    - I didn't quite catch that. Repeat, please.
+    - I didn't hear you clearly. Can you say it again?
+    - I'm having difficulty hearing you. Say it again.
+    - Please repeat that. I didn't understand.
+    - Can you run that by me one more time?
+    - My audio is not great. Can you repeat?
+    - Sorry, I need you to repeat that.
+    - Repeat what you just said, please.
+    - I need a repeat of your last statement.
+    - Can you say that again for me?
+    - I missed what you said. Repeat, please.
+    - My connection is bad. Can you repeat that?
+    - I couldn't make that out. Say it again.
+    - Please say that once more.
+    - What was that? Can you repeat it?
+    - I didn't quite catch that. Say it again.
+    - Sorry, I didn't catch that. Can you repeat?
+    - I didn't hear that properly. Repeat, please.
+    - Say it again, please. I'm not sure I got it.
+    - One more time, please.
+    - I need you to repeat that.
+    - Can you clarify by repeating it?
+    - I'm struggling to hear you. Say it again.
+    - Please repeat for better understanding.
+    - Sorry, I missed that. Repeat, please.
+    - Say that once more, please.
+    - I missed the last part. Can you repeat?
+    - I didn't catch your previous statement. Repeat.
+
+
 

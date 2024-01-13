@@ -39,7 +39,7 @@ Please add the path of repos cloned above to `path_config.py` and also set the R
 1. Start RASA NLU in it's virtual environment:
 cd rasa_nlu
 conda activate nlu_env
-rasa run -m models/nlu-20240113-101342-unproductive-string.tar.gz --enable-api
+rasa run -m models/nlu-20240113-163147-senile-muffin.tar.gz --enable-api
 
 2. Run following commands to start BOT: 
 cd bank_bot
