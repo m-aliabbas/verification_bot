@@ -1,14 +1,27 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
+  - greetings
+  - affirmation
+  - decline
+  - provide_name
+  - provide_address
+  - provide_phone
+  - bot_question
+  - busy
+  - say_again
+  - language_br
+  - number_question
+  - dnc
+  - r_u_scam
+  - call_reason_question
+  - location_question
+  - company_name_question
+  - website_question
+  - data_usage_question
+  - no_give_data
+  - wrong_number
+  
 responses:
   utter_greet:
   - text: "Hey! How are you?"
