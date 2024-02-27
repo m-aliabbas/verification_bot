@@ -21,6 +21,12 @@ intents:
   - data_usage_question
   - no_give_data
   - wrong_number
+  - customer_unavailable
+  - call_back_later
+  - data_security_privacy_question
+  - why_delay
+
+
   
 responses:
   utter_greet:
