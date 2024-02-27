@@ -20,11 +20,9 @@ Please add the path of repos cloned above to `path_config.py` and also set the R
 cd rasa_nlu
 conda activate nlu_env
 
-Latest Model train on latest data (not working fine):
-rasa run -m models/20240220-111722-breezy-functionality_version_03.tar.gz --enable-api
+Latest Model train on latest data:
 
-Working Model:
-rasa run -m models/20240213-101318-isobaric-caribou_version_02.tar.gz --enable-api
+rasa run -m models/20240227-103645-constant-ostrich_version_04.tar.gz --enable-api
 
 
 ## RASA Specific Installation Steps (for Windows):

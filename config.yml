@@ -12,7 +12,7 @@ language: en
 
 pipeline:
   - name: SpacyNLP
-    model: "en_core_web_md" # or another spaCy model you prefer
+    model: "en_core_web_lg" # or another spaCy model you prefer
   - name: SpacyTokenizer
   - name: SpacyFeaturizer
   - name: RegexFeaturizer
@@ -61,7 +61,11 @@ policies: null
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.
 #   - name: MemoizationPolicy
+#   - name: RulePolicy
+#   - name: UnexpecTEDIntentPolicy
+#     max_history: 5
+#     epochs: 100
 #   - name: TEDPolicy
 #     max_history: 5
 #     epochs: 100
-#   - name: RulePolicy
+#     constrain_similarities: true
