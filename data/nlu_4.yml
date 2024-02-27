@@ -2286,6 +2286,229 @@ nlu:
     - Alright, I'm ready to get my number bro.
     - May I know where did you get my number?
 
+- intent: why_delay
+  examples: |
+    - Why is there a delay in your call?
+    - I'm experiencing lag in the call, why is that?
+    - There are so many pauses, it's frustrating.
+    - Can you explain the reason for this call delay?
+    - Why does this call keep lagging?
+    - I'm noticing significant delays in our conversation, why?
+    - This call has a lot of interruptions, what's the cause?
+    - Can you tell me why the call quality is so poor?
+    - What's with all the pauses in the call?
+    - Why am I experiencing such poor call quality?
+    - There's a noticeable lag on your end, why?
+    - The delay in this call is unacceptable, what's going on?
+    - Why are there so many breaks in our communication?
+    - I'm facing a lot of pauses during this call, why?
+    - The call keeps freezing, can you explain why?
+    - This call is really choppy, what's the reason?
+    - Why is the call quality so bad right now?
+    - I'm getting a lot of echo and delay, why?
+    - The call seems to be lagging behind, can you tell me why?
+    - There are too many delays in this call, what's the issue?
+    - Why do I keep experiencing dropouts in our call?
+    - The latency in this call is terrible, why is that?
+    - What's causing all these interruptions during the call?
+    - This call is full of glitches, can you explain?
+    - Why does the call sound so broken up?
+    - I'm hearing a lot of stuttering on the line, what's the cause?
+    - The quality of this call is really poor, why is that happening?
+    - I'm barely able to follow with all these pauses, why?
+    - The call keeps cutting out, can you tell me why?
+    - There's a lot of noise and delay in this call, why?
+    - Why does it feel like there's a delay in every response?
+    - I'm frustrated with the quality of this call, what's the reason?
+    - Why is there so much buffering in this call?
+    - This call is very slow and laggy, why?
+    - The audio keeps dropping, can you explain the delay?
+    - There are significant pauses between our conversation, why?
+    - Why am I hearing echoes and delays?
+    - The call quality is really choppy, what's causing this?
+    - I'm dealing with a lot of call lag, why is this happening?
+    - There's a delay in transmission, can you explain?
+    - Why is the audio quality so poor in this call?
+    - I'm experiencing a lot of audio breaks, what's the issue?
+    - This conversation is filled with pauses, why?
+    - The call keeps lagging, can you tell me the reason?
+    - Why are there constant delays in our call?
+    - This call has too many pauses, what's causing them?
+    - I'm facing frequent interruptions, why is that?
+    - The call is not smooth at all, why?
+    - Why does this call have so much delay and lag?
+    - There's a significant delay in hearing your responses, why?
+    - Why the delay?
+    - Call lagging?
+    - So laggy, why?
+    - Delays, why?
+    - What's with the lag?
+    - Call issues?
+    - Why so slow?
+    - Choppy call, why?
+    - Delayed audio?
+    - Call's breaking up?
+    - Echoes, why?
+    - Why interruptions?
+    - Pauses?
+    - Stuttering call?
+    - Call freezes?
+    - Audio drops, why?
+    - Lag issues?
+    - Slow response?
+    - Buffering?
+    - Poor quality?
+    - Call delays?
+    - Glitchy, why?
+    - Sounds choppy?
+    - Bad connection?
+    - Audio lag, why?
+    - Call's glitching?
+    - Why breaking up?
+    - Call's choppy?
+    - Frequent pauses?
+    - Hangs, why?
+
+- intent: customer_unavailable
+  examples: |
+    - He's not available right now.
+    - The person you're trying to reach is unavailable.
+    - I'm not the decision-maker, the person who is will be back soon.
+    - She's currently out of the office.
+    - They're on another call at the moment.
+    - The individual you want to speak with is not here.
+    - She's away from her desk right now.
+    - He's on leave today.
+    - They're not in the office at the moment.
+    - The party you're trying to reach is out of the office.
+    - She's in a meeting and can't come to the phone.
+    - He's unavailable at the moment, can I take a message?
+    - They're on lunch break right now.
+    - She's currently on vacation and won't be back until next week.
+    - He's off today, can someone else assist you?
+    - The person you're calling is on a business trip.
+    - She's attending to a personal matter and cannot be disturbed.
+    - They're in a conference call and cannot speak with you now.
+    - He's out for the day, is there anything I can help with?
+    - The person you are looking for is not available to talk.
+    - She's not at her phone right now, may I ask who's calling?
+    - They stepped out for a moment, can I have them call you back?
+    - He's currently helping another customer, can he call you back?
+    - The individual you wish to speak with has stepped out.
+    - She's busy with a prior commitment, can this wait?
+    - They're not able to come to the phone this instant.
+    - He's tied up with some work and can't talk.
+    - The person you're attempting to contact is on sick leave.
+    - She's not able to answer the phone at the moment.
+    - They have a full schedule today and can't be reached.
+    - He's dealing with an urgent issue and cannot be interrupted.
+    - The person you seek is in a no-phone zone currently.
+    - She's not in a position to talk right now.
+    - They're taking a personal day today.
+    - He's not at his desk right now, can it wait?
+    - The person you're looking for is currently indisposed.
+    - She's out handling a client and will return later.
+    - They're not here right now, can I message them for you?
+    - He's in a session and cannot be disturbed.
+    - Not available.
+    - She's out.
+    - He's busy.
+    - On a call.
+    - Out of office.
+    - Can't talk now.
+    - Away today.
+    - Not here.
+    - On leave.
+    - In a meeting.
+    - At lunch.
+    - On vacation.
+    - Off today.
+    - Busy now.
+    - Out for the day.
+    - In a session.
+    - Unavailable.
+    - Stepped out.
+    - Not at desk.
+    - Occupied.
+    - On break.
+    - Away from desk.
+    - In conference.
+    - On a trip.
+    - Handling a task.
+    - Can't come to the phone.
+    - Indisposed.
+    - With a client.
+    - Not in.
+    - Away.
+
+- intent: data_security_privacy_question
+  examples: |
+    - Will you share my data with third parties?
+    - How secure is my personal information with you?
+    - Can you assure my data won't be used for marketing?
+    - I'm concerned about data breaches. What's your policy?
+    - Is my payment information kept secure?
+    - Do you sell customer data to advertisers?
+    - How do you protect my privacy?
+    - What measures do you take to ensure data security?
+    - Will my conversations be recorded or monitored?
+    - Can I opt out of data collection?
+    - What's your stance on data privacy?
+    - How can I be sure my data is private and secure?
+    - Are you compliant with GDPR or other privacy regulations?
+    - Do you use data encryption?
+    - Can I access and control my personal data?
+    - Will my data be shared with any social media platforms?
+    - How is my data stored and protected?
+    - Do you have a privacy policy I can review?
+    - Who has access to my personal data?
+    - How often do you update your security measures?
+    - Are my communications with your company encrypted?
+    - What happens to my data if I delete my account?
+    - Can you explain your data retention policy?
+    - How do you handle data breaches?
+    - Will my data be anonymized?
+    - Do you monitor or track user activity?
+    - Is customer data used in your product development?
+    - How can I trust your company with my data?
+    - Do you share any information with government agencies?
+    - What rights do I have regarding my personal data?
+    - How do you ensure third-party vendors protect my data?
+    - Can I request the deletion of my data?
+    - What kind of personal data do you collect?
+    - How do I update my personal information in your records?
+    - Do you conduct privacy impact assessments?
+    - Are there any circumstances under which you would disclose my data?
+    - How can users verify their data is being handled securely?
+    - Do you have a dedicated team for data security?
+    - What safeguards are in place against unauthorized access?
+    - Is my data safe?
+    - Will you sell my info?
+    - Data sharing policy?
+    - Secure my data?
+    - Privacy policy details?
+    - Using data for ads?
+    - Data encryption?
+    - GDPR compliance?
+    - Can I delete my data?
+    - Who accesses my data?
+    - Data breach policy?
+    - Data storage security?
+    - Opt-out of data collection?
+    - Third-party data sharing?
+    - Payment information secure?
+    - Data privacy assurances?
+    - Personal data use?
+    - Data tracking policy?
+    - Account deletion data?
+    - Data retention period?
+    - User activity monitoring?
+    - Data for product development?
+    - Government data sharing?
+    - Data rights?
+    - Update personal info?
+    - Unauthorized access prevention?
+
 - intent: dnc
   examples: |
     - I don't want to talk to you.
@@ -3665,6 +3888,107 @@ nlu:
     - Personal details? Not happening. Let's talk about something else.
     - I keep it simple. Personal details? Not happening. Next?
 
+- intent: call_back_later
+  examples: |
+    - Please return my call at a later time.
+    - I'm currently unavailable. Could you call me back later?
+    - Would it be possible to contact me at a more convenient time?
+    - I am in a meeting, please call me later.
+    - Now is not a good time, can we arrange a callback?
+    - I request you to call me back later.
+    - Kindly call me back at your earliest convenience.
+    - Please schedule a later time to call me.
+    - Unfortunately, I cannot speak right now. Please call back later.
+    - I'm occupied at the moment. Can you try calling back later?
+    - It's not a good time for me. Can we talk later?
+    - Can we do this some other time? Please call me back.
+    - I'm in the middle of something. Could you call back?
+    - This isn't a convenient time. Please try later.
+    - Can you ring me back at another time?
+    - I'll be available later, could you call me then?
+    - Can't talk right now, call me back?
+    - It's not a good time, call me later, okay?
+    - I'm busy now, can you call later?
+    - Please, could you call me at another time?
+    - Right now's not good. How about later?
+    - Can't speak at the moment. Later?
+    - Sorry, can't talk. Call back later?
+    - Not a good time to talk. Please call later.
+    - Can this wait? Please call back later.
+    - I'm tied up at the moment. Can you call back?
+    - Currently indisposed. Could we talk later?
+    - Can't take the call right now. Please call me back.
+    - I'm not available to talk. Please, call me back later.
+    - This moment is not good. Could you call me later?
+    - Can we schedule this call for another time?
+    - Now's not a great time. Can you call back?
+    - I'm on another call. Can you call back later?
+    - Call me back, please. This isn't a good time.
+    - Sorry, in a meeting. Can you call later?
+    - I'm driving right now. Could you call me back later?
+    - Can't answer right now. Can you call back?
+    - In a conference call, can we talk later?
+    - Can't talk now, how about later?
+    - Please call back, I'm not free to talk.
+    - On another line, can you call back?
+    - Busy at the moment, please call back later.
+    - Currently unable to take this call. Please, call back later.
+    - I'm not free right now, can you call back later?
+    - Engaged with something urgent. Can we talk later?
+    - This isn't a good time for a call. Please, try later.
+    - I'll need to call you back later, is that okay?
+    - Can't handle this call right now, please call back.
+    - Please, could we reschedule this call?
+    - Now's really not a good time, can we talk later?
+    - I'm preoccupied, can you call back?
+    - This time is not suitable for me, please call back later.
+    - I'm not in the right place to talk, can you call back?
+    - Can we talk some other time? Call me back, please.
+    - Sorry, but can we chat later?
+    - I'm not available right now, can we reschedule?
+    - Can you call me back in a bit?
+    - I'm tied up right now, let's talk later.
+    - Could you please call me back at a more convenient time?
+    - My hands are full at the moment, please call back.
+    - I'm currently driving, can we talk later?
+    - Not the best time, can you call back?
+    - I'm in the middle of something, can you call back later?
+    - Can't do this call now, how about later?
+    - Sorry, it's not a good time. Can we talk some other time?
+    - I'll be free later, can you call back then?
+    - I'm at an appointment, can you call later?
+    - Can't really talk now, could you call back later?
+    - This isn't a good time for me, can you call later?
+    - I'm in a loud place, can we talk when it's quieter?
+    - Can't chat right now, can you call back?
+    - I'm having dinner, can we talk after?
+    - Sorry, I'm with family now. Can you call back later?
+    - I'm attending a seminar, can we speak later?
+    - I'm on my break, can we talk afterwards?
+    - Can't take your call at this moment, please ring back later.
+    - I'm in a no-call zone, can we talk later?
+    - Currently in a meeting, can I call you back?
+    - I'm watching a movie, can we talk after?
+    - Sorry, I'm on the move. Can we talk later?
+    - I'm out jogging, can you call back?
+    - In a lecture now, can we talk afterwards?
+    - I'm shopping right now, can you call later?
+    - In the middle of work, can we talk at another time?
+    - I'm not in a position to talk, can you call back?
+    - Sorry, can't talk at this second. Can we speak later?
+    - Can't pick up the call right now, please try later.
+    - I'm tied up with something, can we chat later?
+    - Currently out of reach, can you call later?
+    - I'm at the doctor's, can we talk later?
+    - I'm in a session, can we talk after it ends?
+    - Busy with a project, can you call later?
+    - Not a good time for a call, can we schedule for later?
+    - I'm having lunch, can we speak after?
+    - At the gym now, can we talk later?
+    - I'm in the middle of cooking, can you call back?
+    - Currently on a walk, can we talk later?
+    - I'm attending to a personal matter, can we connect later?
+
 - intent: wrong_number
   examples: |
     - I believe you've dialed the wrong number.
@@ -3767,5 +4091,4 @@ nlu:
     - I appreciate your communication; however, it seems there's been a small mix-up in the dialed number, leading to an unintended connection.
     - Thank you for your call. Unfortunately, it seems there may have been a slight oversight in dialing the correct number.
     - I acknowledge your attempt to reach out. Yet, it appears there may be a slight discrepancy in the dialed number, resulting in an unintended connection.
-
 
