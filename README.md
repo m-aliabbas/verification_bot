@@ -22,7 +22,7 @@ conda activate nlu_env
 
 Latest Model train on latest data:
 
-rasa run -m models/20240227-103645-constant-ostrich_version_04.tar.gz --enable-api
+rasa run -m models/verifiation_nlu_April_1st_24_isochoric_biped.tar.gz --enable-api
 
 
 ## RASA Specific Installation Steps (for Windows):

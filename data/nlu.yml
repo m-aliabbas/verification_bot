@@ -410,7 +410,6 @@ nlu:
     - Totally
     - Absolutely
     - Yes 
-
 - intent: decline
   examples: |
     # Formal Decline (ASR Style)
@@ -600,7 +599,6 @@ nlu:
     - Not this time.
     - I don't think so.
     - I don't want anything you go you
-
 - intent: provide_name
   examples: |
     # Formal Name Providing (ASR Style)
@@ -943,7 +941,6 @@ nlu:
     - [Jennifer](name).
     - [Matthew](name).
     - [Elizabeth](name).
-
 - intent: provide_address
   examples: |
     # Formal Address Providing (ASR Style)
@@ -1077,9 +1074,6 @@ nlu:
     - [14th Avenue, Albury Area, New South Wales](address)
     - [18th Lane, Mildura Mile, Victoria](address)
     - [26th Road, Port Macquarie Point, New South Wales](address)
-
-
-
 - intent: provide_phone
   examples: |
     # Formal Phone Providing (ASR Style)
@@ -1146,7 +1140,6 @@ nlu:
     - My work number is [234-567-8901](phone)
     - Drop me a call at [567-890-1234](phone)
     - Text my phone [890-123-4567](phone)
-
 - intent: say_again
   examples: |
     - Repeat that.
@@ -1242,7 +1235,6 @@ nlu:
     - Say that once more, please.
     - I missed the last part. Can you repeat?
     - I didn't catch your previous statement. Repeat.
-
 - intent: busy
   examples: |
     - Can't take your call now.
@@ -1832,7 +1824,6 @@ nlu:
     - I am busy right now. Can you call later?
     - I'm rather busy in a meeting right now.
     - Busy
-    
 - intent: bot_question
   examples: |
     - Is this a bot?
@@ -2067,7 +2058,6 @@ nlu:
     - are you machine or computer?
     - I think you are not human.
     - Are you a bot?
-    
 - intent:  language_br
   examples: |
     - No understand, speak slow please.
@@ -2142,7 +2132,6 @@ nlu:
     - My English limited.
     - Need help, espanol.
     - Spanish, no English.
-
 - intent: number_question
   examples: |
     - Where'd you get my number?
@@ -2285,7 +2274,6 @@ nlu:
     - Where did you get my number?
     - Alright, I'm ready to get my number bro.
     - May I know where did you get my number?
-
 - intent: why_delay
   examples: |
     - Why is there a delay in your call?
@@ -2368,7 +2356,6 @@ nlu:
     - Call's choppy?
     - Frequent pauses?
     - Hangs, why?
-
 - intent: customer_unavailable
   examples: |
     - He's not available right now.
@@ -2440,7 +2427,6 @@ nlu:
     - With a client.
     - Not in.
     - Away.
-
 - intent: data_security_privacy_question
   examples: |
     - Will you share my data with third parties?
@@ -2508,7 +2494,6 @@ nlu:
     - Data rights?
     - Update personal info?
     - Unauthorized access prevention?
-
 - intent: dnc
   examples: |
     - I don't want to talk to you.
@@ -2690,7 +2675,121 @@ nlu:
     - Stop calling me, alright?
     - I'm opting out. Do not call please.
     - No more calls, that's it.
-
+    - I formally request that you cease calling my number by adding it to your do not call list.
+    - I respectfully demand that my phone number be immediately added to your do not call registry.
+    - As a formal request, I instruct you to include my contact details on your do not call database.
+    - I am sending this formal communication to ensure my number is categorized under do not call.
+    - It is my sincere request that you stop calling me by placing my number on your do not call records.
+    - In accordance with my preference, kindly designate my number as do not call to prevent future disruptions.
+    - I assert my right to request that my number be added to your do not call system immediately.
+    - I trust you will treat this formal request with the seriousness it deserves and update your do not call list.
+    - This formal communication serves as my official demand to include my number in your do not call category.
+    - In a formal manner, I direct you to ensure my number is part of your do not call registry.
+    - Hey, can you please stop calling my number? It's getting really annoying. Do not call, got it?
+    - Seriously, enough with the calls. Can you please stick my number on your do not call list?
+    - Hey, could you please quit ringing me? Just add my digits to your do not call database.
+    - I've had it with these calls. Can you please put me on your do not call list?
+    - Can you back off with the calls? I just want to be on the do not call list.
+    - I'm seriously fed up with these calls. Can you make sure I'm on your do not call registry?
+    - I'm done with these calls. Can you just add me to your do not call system, alright?
+    - Quit calling me, alright? Add me to your do not call list, okay?
+    - I'm tired of your calls. Could you please add me to your do not call thing?
+    - These calls are really bothering me. Can you please add me to your do not call records?
+    - Please add me to the do not call list right away.
+    - Do not call, that's it.
+    - Enough with the calls, seriously. Put me on the do not call list.
+    - I'm opting out. Please do not call me.
+    - I formally request that you add my number to your do not call list. This is my official instruction.
+    - I respectfully demand that my phone number be included in your do not call registry.
+    - As a formal request, I instruct you to make sure my contact details are on your do not call database.
+    - I am sending this formal communication to ensure my number is properly classified as do not call.
+    - It is my sincere request that you refrain from calling me by placing my number on your do not call records.
+    - In accordance with my preference, kindly designate my number as do not call to avoid further disturbances.
+    - I assert my right to request that my number be added to your do not call system without any delays.
+    - I trust you will treat this formal request seriously and update your do not call list accordingly.
+    - This formal communication serves as my official demand to have my number categorized as do not call.
+    - In a formal manner, I direct you to ensure my number is included in your do not call registry.
+    - Hey, can you please stop calling my number? It's seriously irritating. Do not call, got it?
+    - Seriously, enough with the calls. Can you please just put my number on your do not call list?
+    - Hey, could you please stop ringing me? Just add my digits to your do not call database.
+    - I've had it with these calls. Can you please just add me to your do not call list?
+    - I'm really fed up with these calls. Can you make sure I'm on your do not call registry?
+    - I'm tired of your calls. Could you please just add me to your do not call records?
+    - These calls are seriously bothering me. Can you please just add me to your do not call list?
+    - Please add me to the do not call list right now.
+    - I want to be on the do not call list, as soon as possible.
+    - Just put me on do not call, okay?
+    - I'm done with calls. Just do not call me.
+    - Enough with the calls, seriously. Add me to the do not call list.
+    - I'm opting out. Please, do not call me.
+    - I'm writing this formal message to explicitly state that I want my number on your do not call registry.
+    - Hey, could you do me a favor and stop calling my number? It's really starting to annoy me. Do not call, got it?
+    - I've had it with these calls. Can you please just put me on your do not call list?
+    - These calls are really bothering me. Can you please just add me to your do not call list?
+    - I don't want to talk to you, just cut the call.
+    - I don't want to hear from you.
+    - This cut the cold.
+    - this could the call
+    - I asked you to stop calling me.
+    - I am saying use to stop calling.
+    - Don't bother me, stop it.
+    - Please stop calling me.
+    - getting a thousand calls, please stop.
+    - I don't want calls from you.
+    - quit calling me.
+    - Please don't call again.
+    - I can't proceed further.
+    - How many times do I have to say no?
+    - I've had enough. Stop calling me!
+    - Can't you take a hint? No more calls!
+    - This is harassment, and I'm not tolerating it.
+    - Your calls are ruining my day.
+    - Please, just leave me alone. No more calls!
+    - I'm this close to blocking your number.
+    - No more calls, please. I've had it!
+    - I'm seriously considering legal action.
+    - I'm on the verge of reporting your company.
+    - I'm on the brink of blocking all unknown numbers.
+    - How many complaints does it take to stop the calls?
+    - I never asked for your calls. Enough is enough!
+    - I've asked you to stop before. Why are you still calling?
+    - I'm not interested. Stop calling me!
+    - Please, stop pestering me with these calls!
+    - I've asked you nicely before. No more calls!
+    - I didn't sign up for this. No more calls!
+    - I'm really angry about all these calls.
+    - No more calls, please. I'm not interested!
+    - I've told you before, no more calls!
+    - I'm seriously considering blocking all unknown numbers.
+    - I never signed up for this. Stop calling!
+    - I'm this close to reporting your company.
+    - I never consented to these calls. Stop!
+    - I've told you to stop before. Stop calling!
+    - I don't want your calls. Leave me alone!
+    - I've had enough. No more calls!
+    - I've reached my breaking point with these calls.
+    - I don't want any more calls. Enough is enough!
+    - Mother Fucker, stop
+    - Fuck you, motherfucker
+    - piss off
+    - Just piss off and leave me alone!
+    - Son of a bitch
+    - shut up Bastard
+    - Bitch bitch
+    - What the fuck are you want?
+    - You bastard!
+    - You bastard, don't call me.
+    - You fucking differ, Adam. Go away.
+    - They're bastard.
+    - The fuck are you, are you mad or bored?
+    - Oh, who bastard is you?
+    - Fuck off.
+    - just fuck off
+    - Fuck you.
+    - Very bloody
+    - Will the fuck is this?
+    - Who the fuck are you?
+    - Don't be such an asshole
 - intent: r_u_scam
   examples: |
     - Is this call legitimate, or could it be a scam?
@@ -2868,7 +2967,6 @@ nlu:
     - Scam protection is important to me. How do you ensure the legitimacy of each call?
     - I've heard of scams targeting businesses. How do you guarantee the security of this call?
     - Scams are a concern. How do you assure me that this call is trustworthy and not fraudulent?
-
 - intent: call_reason_question
   examples: |
     - Can you tell me the purpose of this call?
@@ -3004,7 +3102,6 @@ nlu:
     - What's the anticipated result of this call?
     - Why should I engage in this call with you today?
     - Why did you select this time to reach out to me?
-
 - intent: location_question
   examples: |
     - From which country do you operate?
@@ -3193,7 +3290,6 @@ nlu:
     - Where are you from?
     - Where are you calling from?
     - Where are you from, Dart?
-
 - intent: company_name_question
   examples: |
     - What's your company's name?
@@ -3380,7 +3476,6 @@ nlu:
     - Tell me about yourself and your company.
     - Identify yourself and your role in the organization.
     - Please give me your name and your company's name.
-
 - intent: website_question
   examples: |
     - Do you have a website?
@@ -3504,7 +3599,6 @@ nlu:
     - Is there a website where I can explore more about your company?
     - What's the URL for your business's official site?
     - Can you provide the link to your company's online platform?
-
 - intent: data_usage_question
   examples: |
     - How is the collected data going to be used?
@@ -3735,9 +3829,123 @@ nlu:
     - Can you clarify the need for numbers?
     - Any special reason for numbers?
     - What's the purpose of asking numbers?
-
 - intent: no_give_data
   examples: |
+    - I'm not in mode to talking to you.
+    - Not interested.
+    - Not interested, sorry.
+    - Not for my profile.
+    - Not interested, no.
+    - No interest.
+    - I'm not interested, sorry.
+    - I'll pass this time.
+    - Not my interest area.
+    - I'm not up for it.
+    - I'm not interested in this.
+    - Not my preference.
+    - I'm not feeling this.
+    - I'm not up for that.
+    - I'm not inclined.
+    - I'm not enthusiastic.
+    - Not in the mood.
+    - I'm not motivated.
+    - I'm not in the mood for that.
+    - I'm not excited.
+    - I'm not in the mood right now.
+    - I'm not up for that right now.
+    - I'm not enthusiastic about it.
+    - I'm not feeling up to it.
+    - I'm not in the mood, sorry.
+    - I'm not motivated for this.
+    - I'm not in the mood for it.
+    - I'm not excited about this.
+    - I'm not in the mood today.
+    - I'm not up for that today.
+    - I'm not feeling up for it today.
+    - I'm not in the mood, thanks.
+    - I'm not in the mood for it, thanks.
+    - I'm not excited, thanks.
+    - I'm not in the mood today, thanks.
+    - I'm not up for that today, thanks.
+    - I'm not enthusiastic right now, thanks.
+    - I'm not feeling up for it today, thanks.
+    - I'm sorry, but I'm really not interested in your offer.
+    - Thank you, but I'm not interested at this time.
+    - I appreciate your call, but I'm not interested.
+    - Sorry, I'm not really interested in this opportunity.
+    - I've considered it, but I'm not interested in moving forward.
+    - Thanks for reaching out, but I'm not interested.
+    - I'm not interested.
+    - I'm not interested in what you're offering, but I appreciate your call.
+    - I've heard about your company, but I'm not interested.
+    - To be honest, I'm not interested in your product.
+    - I'm not interested in learning more about your services.
+    - This doesn't align with my needs, so I'm not interested.
+    - I'm sorry, but this isn't the right fit for me. I'm not interested.
+    - I'm not interested in exploring this further.
+    - Not interested, but thank you for the information.
+    - I'm not really keen on this, so I'll have to say no.
+    - Sorry, but I'm just not interested right now.
+    - I've thought about it, and I'm not interested in proceeding.
+    - I don't think this is for me. I'm not interested.
+    - I appreciate your time, but I'm not interested in your offer.
+    - I'm not interested in pursuing this opportunity.
+    - I've had a look, and I'm not interested at this point.
+    - I've considered it, but I'm not interested in switching.
+    - I'm not interested in exploring this further right now.
+    - I've decided I'm not interested in moving forward.
+    - I don't have an interest in this, thank you.
+    - I'm sorry, but I'm not interested in you are offering
+    - This isn't what I'm looking for, so I'm not interested.
+    - I'm not interested in your proposal, but thanks for calling.
+    - I don't see the benefit for me, so I'm not interested.- I've thought about it, and I'm not interested in this proposal.
+    - I'm not interested in your offerings, but thanks for the call.
+    - I've looked into it, and I'm not interested in your suggestion.
+    - I've reviewed it, and I'm not interested in proceeding.
+    - I'm not interested in exploring this avenue.
+    - I'm not interested in switching my current arrangement.
+    - I'm not interested in making any changes at this point.
+    - I'm not interested in pursuing this path.
+    - I'm not interested in your company's solutions.
+    - I'm not interested in what you're trying to promote.
+    - I've thought about it, and I'm not interested in your suggestion.
+    - I'm not interested in making any decisions right now.
+    - I've looked into it, and I'm not interested in your proposal.
+    - I'm not interested in changing my current approach.
+    - I've reviewed it, and I'm not interested in exploring this further.
+    - I'm not interested in pursuing this route.
+    - Nah, not really interested in that.
+    - Thanks, but I'm gonna pass on this.
+    - Nah, not feeling it, thanks though.
+    - Sorry, not vibing with that idea.
+    - I'm good, not interested in this.
+    - Not gonna lie, not interested at all.
+    - Thanks, but no thanks, not interested.
+    - Appreciate it, but I'm gonna pass.
+    - Nope, not what I'm looking for.
+    - Thanks, but not really into it.
+    - Nah, not catching my attention.
+    - Nah, not feeling that idea.
+    - Nope, not interested in that offer.
+    - Nah, not my kind of thing.
+    - Thanks, but I'm not up for it.
+    - Sorry, not interested in what you're saying.
+    - Nope, not in the mood for that.
+    - Nah, not gonna roll with that.
+    - Thanks, but I'll have to pass.
+    - Sorry, but I'm not feeling it.
+    - Nah, not gonna jump on that train.
+    - Thanks, but I'll sit this one out.
+    - Sorry, not gonna bite on this.
+    - Thanks, but I'll have to skip.
+    - Sorry, not gonna get into that.
+    - Sorry, but this ain't for me.
+    - Nope, not interested in
+    - Okay, but I am not interested.
+    - Sorry, I am not Interested in offer
+    - I am not interested in it.
+    - I'm not interested.
+    - I am not interested.
     - I prefer not sharing.
     - My info stays with me.
     - I keep my details private.
@@ -3887,7 +4095,6 @@ nlu:
     - Personal details are a no-go. What's the next point of discussion?
     - Personal details? Not happening. Let's talk about something else.
     - I keep it simple. Personal details? Not happening. Next?
-
 - intent: call_back_later
   examples: |
     - Please return my call at a later time.
@@ -3988,7 +4195,6 @@ nlu:
     - I'm in the middle of cooking, can you call back?
     - Currently on a walk, can we talk later?
     - I'm attending to a personal matter, can we connect later?
-
 - intent: wrong_number
   examples: |
     - I believe you've dialed the wrong number.

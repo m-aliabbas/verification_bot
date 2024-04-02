@@ -1,0 +1,357 @@
+- intent: abusive
+  examples: |
+    - Fuck
+    - Fuck you
+    - Shitbag
+    - Shit
+    - Piss off
+    - Asshole
+    - Dickweed
+    - Cunt
+    - Son of a bitch
+    - Fuck trumpet
+    - Bastard
+    - Bitch
+    - Damn
+    - Bollocks
+    - Bugger
+    - Cocknose
+    - Bloody hell
+    - Knobhead
+    - Choad
+    - Bitchtits
+    - Crikey
+    - Rubbish
+    - Pissflaps
+    - Shag
+    - Wanker
+    - Talking the piss
+    - Twat
+    - Arsebadger
+    - Jizzcock
+    - Cumdumpster
+    - Shitmagnet
+    - Scrote
+    - Twatwaffle
+    - Thundercunt
+    - Dickhead
+    - Shitpouch
+    - Jizzstain
+    - Nonce
+    - Pisskidney
+    - Wazzock
+    - Cumwipe
+    - Fanny
+    - Bellend
+    - Pisswizard
+    - Knobjockey
+    - Cuntpuddle
+    - Dickweasel
+    - Quim
+    - Bawbag
+    - Fuckwit
+    - Tosspot
+    - Cockwomble
+    - Twat face
+    - Cack
+    - Flange
+    - Clunge
+    - Dickfucker
+    - Fannyflaps
+    - Wankface
+    - Gobshite
+    - Jizzbreath
+    - Todger
+    - Nutsack
+    - What the fuck are you want?
+    - You bastard!
+    - You bastard, get the call.
+    - Uhh, you are freaking...
+    - You fucking differ, Adam. Go away.
+    - Bostered.
+    - Buster!
+    - They're bastard.
+    - The fuck are you, are you mad or bored?
+    - Oh, who bastard is you?
+    - Fuck off.
+    - Fuck you.
+    - Very bloody
+    - Will the fuck is this?
+    - Who the fuck are you?
+    - Cumbubble
+
+- intent: DNC
+  examples: |
+    - I don't want to talk to you.
+    - Stop calling me.
+    - Remove me from your list.
+    - I'm not interested, stop calling.
+    - Do not contact me.
+    - Put me on your do not call list.
+    - I don't want any more calls.
+    - Don't bother calling.
+    - Cease all calls.
+    - I'm on the do not call list.
+    - I've asked you to stop.
+    - DNC, please.
+    - Do Not Call, please.
+    - Don't Call, please.
+    - I'm not a potential customer, Don't Call.
+    - I'm not a potential customer, Do Not Call.
+    - No more calls, please.
+    - Don't call this number again.
+    - Don't Call thanks
+    - Do Not Call, thanks.
+    - Remove my number, DNC.
+    - Please respect my DNC request.
+    - I'm not a prospect, Do Not Call.
+    - Stop contacting me.
+    - I've requested DNC.
+    - This is a DNC request.
+    - No more solicitations.
+    - Don't call here anymore.
+    - DNC me.
+    - I've registered for DNC.
+    - DNC my number.
+    - I'm not interested, DNC me.
+    - I'm on the DNC list.
+    - Please honor DNC.
+    - DNC, no calls.
+    - Don't call my phone.
+    - I've opted for DNC.
+    - DNC, stop calling.
+    - I'm not a lead, DNC.
+    - Cease all communications.
+    - Don't dial this number again.
+    - DNC, no more calls.
+    - Please add me to DNC.
+    - I'm not receptive, DNC.
+    - Take me off your calling list.
+    - DNC, no contact.
+    - I don't want your calls anymore.
+    - I've requested no calls.
+    - This is a DNC request, respect it.
+    - DNC, no more solicitations.
+    - I'm not interested, don't call.
+    - Honor my DNC request.
+    - I'm not interested in your calls, DNC.
+    - Don't contact me, DNC.
+    - I've opted out, DNC.
+    - DNC, cease calls.
+    - I'm not a potential customer, DNC me.
+    - Stop reaching out, DNC.
+    - I've registered for DNC, respect it.
+    - DNC, no more dialing.
+    - I'm not open to calls, DNC.
+    - I've requested DNC, please comply.
+    - Don't call me anymore, DNC.
+    - I'm not a lead, respect my DNC request.
+    - DNC, no more contact.
+    - I've asked to be taken off the list.
+    - DNC, no more calls, please.
+    - I don't want to hear from you, DNC.
+    - DNC, no more communication.
+    - I've opted for DNC, no more calls.
+    - Please respect my DNC preference.
+    - remove me from the list
+    - remove me from list
+    - please remove me from list
+    - I formally request you to add my number to your do not call list.
+    - Please ensure my phone number is included in your do not call registry.
+    - Kindly refrain from contacting me in the future. I wish to be on your do not call list.
+    - Could you add my contact details to your do not call database? Thank you.
+    - I hereby authorize you to put my number on your do not call list immediately.
+    - I demand that you stop contacting me. My number should be on your do not call records.
+    - Please acknowledge my request to be placed on your do not call list.
+    - It is my right to request that my number be added to your do not call registry.
+    - I explicitly instruct you to add my phone number to your do not call system.
+    - I formally insist that my number be added to your do not call list without delay.
+    - Hey, can you make sure my number doesn't get called again? Put me on your do not call thing.
+    - Yo, I don't wanna be bothered anymore. Add me to that do not call list, okay?
+    - Hey, could you stop calling me? Add my digits to your do not call database.
+    - Stop pestering me with calls, alright? Put me on your do not call list.
+    - Can you quit ringing me? I want you to add my number to your do not call system.
+    - I'm really fed up with these calls. Make sure I'm on your do not call list.
+    - Enough with the calls, seriously! Just put me on your do not call records.
+    - I'm getting too many calls from you. Add me to your do not call thing, please.
+    - Can you back off with the calls? I want to be on the do not call list.
+    - These calls are annoying. Add me to your do not call registry, will you?
+    - Add me to do not call immediately.
+    - Don't call again, alright?
+    - Do not call, got it?
+    - Put me on your do not call list, now.
+    - I'm done with calls. Do not call list, okay?
+    - I'm opting out. Add me to do not call.
+    - Just add me to do not call.
+    - Stop calling me, okay?
+    - Do not call, that's all.
+    - Please ensure you add my number to the do not call list.
+    - I want my number added to your do not call registry.
+    - Kindly make sure my phone number is on the do not call database.
+    - I insist that my number be added to your do not call list.
+    - I'd appreciate it if you could add my number to the do not call registry.
+    - Make sure you put my number on the do not call list, please.
+    - I request that you stop contacting me by adding my number to your do not call list.
+    - Please acknowledge my request to be placed on your do not call registry.
+    - Please ensure my number is included in your do not call database.
+    - I would like to be on your do not call list, so kindly add my phone number.
+    - Can you make sure not to call me anymore? I'm tired of it. Do not call, got it?
+    - Stop calling, seriously! Put my number on your do not call stuff.
+    - Hey, could you stop ringing me? Just add my digits to your do not call database.
+    - Quit bothering me with calls! Add me to your do not call list, alright?
+    - Add me to the do not call list right away.
+    - I want to be on the do not call list.
+    - Just put me on do not call.
+    - Do not call, now.
+    - I'm done with calls. Just do not call.
+    - No more calls, alright?
+    - Add me to the don't call list.
+    - I'm opting out. Do not call.
+    - I hereby formally declare my desire to be excluded from your call list. Kindly add my number to your do not call registry.
+    - Please comply with my request to end further communications by including my number on your do not call list.
+    - As a formal instruction, I implore you to mark my contact details as do not call in your records.
+    - I am sending this formal communication to ensure that my number is registered under the do not call category.
+    - With all due formality, I am requesting that you cease calling me by placing my number on your do not call list.
+    - In accordance with my preference, kindly classify my number as do not call to avoid any future disturbances.
+    - I am exercising my right to request that my number be added to your do not call database.
+    - I trust you will take my formal request seriously and prevent any future calls by including my number in the do not call list.
+    - This formal communication serves as my official request to have my number registered under your do not call category.
+    - In a formal manner, I am directing you to ensure my number is part of your do not call registry.
+    - Hey, can you stop calling my number? I'm really not interested. Put me on your do not call thing, alright?
+    - Listen, I'm getting annoyed by these calls. Add me to your do not call list, please.
+    - Could you do me a favor and stop calling? Just add my digits to your do not call database.
+    - Hey, I've had enough of these calls. Can you please put me on your do not call list?
+    - Seriously, enough with the calls. Can you stick my number on your do not call records?
+    - I've been getting too many calls from you lately. Can you please add me to your do not call thing?
+    - These calls are really irritating. Can you make sure I'm on your do not call registry?
+    - I'm done with these calls. Just add me to your do not call system, alright?
+    - Quit calling me, it's getting on my nerves. Add me to your do not call list, okay?
+    - I'm not interested in your calls anymore. Can you please put me on the do not call list?
+    - Please put me on your do not call list.
+    - I want to be on the do not call list, ASAP.
+    - Add me to do not call now.
+    - Don't call me again, alright?
+    - I'm done with calls. Do not call list, alright?
+    - Enough with the calls, seriously. Do not call list, now.
+    - Please, no more calls. Do not call.
+    - It is imperative that you add my number to your do not call list. This is a formal request.
+    - As per my formal communication, I kindly request you to add my number to your do not call registry.
+    - I hereby make a formal appeal to have my contact details included in your do not call database.
+    - Please take note of my formal request to add my phone number to your do not call list.
+    - In a formal manner, I ask that you stop contacting me by placing my number on your do not call records.
+    - It is within my rights to formally instruct you to include my number in your do not call system.
+    - I demand that you respect my wish for privacy and place my number on your do not call list immediately.
+    - Please consider this formal communication as my desire to opt out of further calls. Put me on your do not call list.
+    - I expect you to comply with this formal request to add my number to your do not call database.
+    - Hey, could you do me a favor and stop calling? Just put me on your do not call list, alright?
+    - I'm really not interested in your calls. Add me to your do not call list, please.
+    - These calls are starting to annoy me. Can you make sure I'm on your do not call registry?
+    - Seriously, these calls are getting on my nerves. Add me to your do not call records, will you?
+    - Hey, can you back off with the calls? I want to be on the do not call list.
+    - I'm tired of these calls. Can you please put me on your do not call thing?
+    - Quit bugging me with calls, okay? Stick my number on your do not call list.
+    - Can you please stop calling me all the time? Just add my digits to your do not call database.
+    - These calls are getting out of hand. Make sure I'm on your do not call list, please.
+    - I'm fed up with your calls. Can you just add me to your do not call registry?
+    - Add me to the do not call list ASAP.
+    - I don't want any more calls, okay?
+    - Just do not call me anymore.
+    - Put me on your do not call list right now.
+    - I've had enough. Do not call me.
+    - Stop calling me, alright?
+    - I'm opting out. Do not call please.
+    - No more calls, that's it.
+    - I formally request that you cease calling my number by adding it to your do not call list.
+    - I respectfully demand that my phone number be immediately added to your do not call registry.
+    - As a formal request, I instruct you to include my contact details on your do not call database.
+    - I am sending this formal communication to ensure my number is categorized under do not call.
+    - It is my sincere request that you stop calling me by placing my number on your do not call records.
+    - In accordance with my preference, kindly designate my number as do not call to prevent future disruptions.
+    - I assert my right to request that my number be added to your do not call system immediately.
+    - I trust you will treat this formal request with the seriousness it deserves and update your do not call list.
+    - This formal communication serves as my official demand to include my number in your do not call category.
+    - In a formal manner, I direct you to ensure my number is part of your do not call registry.
+    - Hey, can you please stop calling my number? It's getting really annoying. Do not call, got it?
+    - Seriously, enough with the calls. Can you please stick my number on your do not call list?
+    - Hey, could you please quit ringing me? Just add my digits to your do not call database.
+    - I've had it with these calls. Can you please put me on your do not call list?
+    - Can you back off with the calls? I just want to be on the do not call list.
+    - I'm seriously fed up with these calls. Can you make sure I'm on your do not call registry?
+    - I'm done with these calls. Can you just add me to your do not call system, alright?
+    - Quit calling me, alright? Add me to your do not call list, okay?
+    - I'm tired of your calls. Could you please add me to your do not call thing?
+    - These calls are really bothering me. Can you please add me to your do not call records?
+    - Please add me to the do not call list right away.
+    - Do not call, that's it.
+    - Enough with the calls, seriously. Put me on the do not call list.
+    - I'm opting out. Please do not call me.
+    - I formally request that you add my number to your do not call list. This is my official instruction.
+    - I respectfully demand that my phone number be included in your do not call registry.
+    - As a formal request, I instruct you to make sure my contact details are on your do not call database.
+    - I am sending this formal communication to ensure my number is properly classified as do not call.
+    - It is my sincere request that you refrain from calling me by placing my number on your do not call records.
+    - In accordance with my preference, kindly designate my number as do not call to avoid further disturbances.
+    - I assert my right to request that my number be added to your do not call system without any delays.
+    - I trust you will treat this formal request seriously and update your do not call list accordingly.
+    - This formal communication serves as my official demand to have my number categorized as do not call.
+    - In a formal manner, I direct you to ensure my number is included in your do not call registry.
+    - Hey, can you please stop calling my number? It's seriously irritating. Do not call, got it?
+    - Seriously, enough with the calls. Can you please just put my number on your do not call list?
+    - Hey, could you please stop ringing me? Just add my digits to your do not call database.
+    - I've had it with these calls. Can you please just add me to your do not call list?
+    - I'm really fed up with these calls. Can you make sure I'm on your do not call registry?
+    - I'm tired of your calls. Could you please just add me to your do not call records?
+    - These calls are seriously bothering me. Can you please just add me to your do not call list?
+    - Please add me to the do not call list right now.
+    - I want to be on the do not call list, as soon as possible.
+    - Just put me on do not call, okay?
+    - I'm done with calls. Just do not call me.
+    - Enough with the calls, seriously. Add me to the do not call list.
+    - I'm opting out. Please, do not call me.
+    - I'm writing this formal message to explicitly state that I want my number on your do not call registry.
+    - Hey, could you do me a favor and stop calling my number? It's really starting to annoy me. Do not call, got it?
+    - I've had it with these calls. Can you please just put me on your do not call list?
+    - These calls are really bothering me. Can you please just add me to your do not call list?
+    - I don't want to talk to you, just cut the call.
+    - I don't want to hear from you.
+    - This cut the cold.
+    - this could the call
+    - I asked you to stop calling me.
+    - I am saying use to stop calling.
+    - Don't bother me, stop it.
+    - Please stop calling me.
+    - getting a thousand calls, please stop.
+    - I don't want calls from you.
+    - quit calling me.
+    - Please don't call again.
+    - I can't proceed further.
+    - How many times do I have to say no?
+    - I've had enough. Stop calling me!
+    - Can't you take a hint? No more calls!
+    - This is harassment, and I'm not tolerating it.
+    - Your calls are ruining my day.
+    - Please, just leave me alone. No more calls!
+    - I'm this close to blocking your number.
+    - No more calls, please. I've had it!
+    - I'm seriously considering legal action.
+    - I'm on the verge of reporting your company.
+    - I'm on the brink of blocking all unknown numbers.
+    - How many complaints does it take to stop the calls?
+    - I never asked for your calls. Enough is enough!
+    - I've asked you to stop before. Why are you still calling?
+    - I'm not interested. Stop calling me!
+    - Please, stop pestering me with these calls!
+    - I've asked you nicely before. No more calls!
+    - I didn't sign up for this. No more calls!
+    - I'm really angry about all these calls.
+    - No more calls, please. I'm not interested!
+    - I've told you before, no more calls!
+    - I'm seriously considering blocking all unknown numbers.
+    - I never signed up for this. Stop calling!
+    - I'm this close to reporting your company.
+    - I never consented to these calls. Stop!
+    - I've told you to stop before. Stop calling!
+    - I don't want your calls. Leave me alone!
+    - I've had enough. No more calls!
+    - I've reached my breaking point with these calls.
+    - I don't want any more calls. Enough is enough!
